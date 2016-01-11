@@ -18,7 +18,7 @@ public class DiggyWorm {
         Game game = new Game(frame);
 
         /* Uncomment this line for full screen */
-        //        frame.setUndecorated(true);
+        frame.setUndecorated(true);
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new BorderLayout());
@@ -30,7 +30,7 @@ public class DiggyWorm {
         frame.setVisible(true);
 
         /* Uncomment this line for full screen */
-        //        game.setFullScreen();
+        game.setFullScreen();
 
         game.start();
 
