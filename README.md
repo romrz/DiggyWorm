@@ -3,8 +3,7 @@
 An incomplete game made in Java
 
 # Compile & Run
-mvn package
-java -cp target/DiggyWorm-1.0.jar com.diggyworm.DiggyWorm
+ant execute
 
 # Screenshots
 ![screenshot1](https://raw.githubusercontent.com/romrz/DiggyWorm/master/screenshots/d1.PNG)
